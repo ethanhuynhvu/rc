@@ -2,7 +2,7 @@ syntax on
 set backspace=indent,eol,start
 set hlsearch
 set paste
-
+set vb t_vb=
 
 " Line numbers
 set number relativenumber
