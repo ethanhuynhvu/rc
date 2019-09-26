@@ -1,21 +1,37 @@
 syntax on
-set backspace=indent,eol,start
-set hlsearch
-set paste
-set visualbell t_vb=
 
-" Line numbers
+" Backspace works like it does it Notepad
+set backspace=indent,eol,start
+
+
+" Highlight works when searching
+set hlsearch
+
+
+" Turn off inserting comments on <Enter> in insert mode and <O> in normal mode
+set formatoptions-=r
+set formatoptions-=o
+
+
+" Turn off annoying flashes and sounds on errors
+set noerrorbells
+set novisualbell
+set t_vb=
+
+
+" Set hybrid line numbers.  Used in conjuction with numbertoggle plugin.
 set number relativenumber
 
-" The following code is from https://github.com/jeffkreeftmeijer/vim-numbertoggle
-augroup numbertoggle
-  autocmd!
-  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu | set rnu   | endif
-  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu | set nornu | endif
-augroup END
 
-
-" Tab
+" Set <Tab> to four spaces
 set expandtab
 set tabstop=4
 set shiftwidth=4
+
+
+" Plugins with vim-plugs
+call plug#begin('~/.vim/plugins')
+
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+
+call plug#end()
