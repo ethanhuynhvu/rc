@@ -1,0 +1,14 @@
+RCol='\033[0m'
+Blk='\033[30m';
+Red='\033[31m';
+Gre='\033[32m';
+Yel='\033[33m';
+Blu='\033[34m';
+Mag='\033[35m';
+Cyn='\033[36m';
+
+Time="\`if [ \$? = 0 ]; then echo "${Gre}"; else echo "${Red}"; fi\`\t"
+Machine="\[${Cyn}\]\u@\h"
+Dir="\[${Yel}\]\w"
+
+PS1="┌─[${Time} ${Machine} ${Dir}\[${RCol}\]]\n└─╼ "
