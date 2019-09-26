@@ -33,5 +33,6 @@ set shiftwidth=4
 call plug#begin('~/.vim/plugins')
 
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
