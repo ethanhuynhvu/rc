@@ -19,6 +19,10 @@ set novisualbell
 set t_vb=
 
 
+" Set cursor line
+set cursorline
+
+
 " Set hybrid line numbers.  Used in conjuction with numbertoggle plugin.
 set number relativenumber
 
