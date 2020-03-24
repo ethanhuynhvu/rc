@@ -14,7 +14,6 @@ colorscheme desert
 
 " Cursor line
 set cursorline
-set cursorlineopt=both
 
 
 " Highlight when searching
