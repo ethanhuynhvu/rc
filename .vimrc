@@ -1,38 +1,40 @@
-syntax on
-
 " Backspace works like it does it Notepad
 set backspace=indent,eol,start
+
+
+" Bells and flashes turned off
+set noerrorbells
+set novisualbell
+set t_vb=
 
 
 " Color scheme
 colorscheme desert
 
 
-" Highlight works when searching
-set hlsearch
-
-
-" Turn off inserting comments on <Enter> in insert mode and <O> in normal mode
-set formatoptions-=r
-set formatoptions-=o
-
-
-" Turn off annoying flashes and sounds on errors
-set noerrorbells
-set novisualbell
-set t_vb=
-
-
-" Set cursor line
+" Cursor line
 set cursorline
 set cursorlineopt=both
 
 
-" Set hybrid line numbers.  Used in conjuction with numbertoggle plugin.
+" Highlight when searching
+set hlsearch
+
+
+" Inserting comments on <Enter> in insert mode and <O> in normal mode is turned off
+set formatoptions-=r
+set formatoptions-=o
+
+
+" Line numbers set to hybrid.  Used in conjuction with numbertoggle plugin.
 set number relativenumber
 
 
-" Set <Tab> to four spaces
+" Syntax on
+syntax on
+
+
+" <Tab> to four spaces
 set expandtab
 set tabstop=4
 set shiftwidth=4
