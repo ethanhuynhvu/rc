@@ -25,6 +25,7 @@ set t_vb=
 
 " Set cursor line
 set cursorline
+set cursorlineopt=both
 
 
 " Set hybrid line numbers.  Used in conjuction with numbertoggle plugin.
