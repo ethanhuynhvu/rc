@@ -40,6 +40,10 @@ set tabstop=4
 set shiftwidth=4
 
 
+" Wild menu on
+set wildmenu
+
+
 " Compilers
 autocmd FileType python compiler pylint
 
