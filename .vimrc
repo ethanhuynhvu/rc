@@ -4,6 +4,10 @@ syntax on
 set backspace=indent,eol,start
 
 
+" Color scheme
+colorscheme desert
+
+
 " Highlight works when searching
 set hlsearch
 
@@ -33,7 +37,7 @@ set tabstop=4
 set shiftwidth=4
 
 
-" Compiler
+" Compilers
 autocmd FileType python compiler pylint
 
 
