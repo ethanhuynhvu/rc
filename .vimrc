@@ -33,6 +33,10 @@ set tabstop=4
 set shiftwidth=4
 
 
+" Compiler
+autocmd FileType python compiler pylint
+
+
 " Plugins with vim-plugs
 call plug#begin('~/.vim/plugins')
 
