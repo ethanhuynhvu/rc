@@ -25,8 +25,12 @@ set formatoptions-=r
 set formatoptions-=o
 
 
-" Line numbers set to hybrid.  Used in conjuction with numbertoggle plugin.
+" Line numbers set to hybrid.  Used in conjunction with numbertoggle plugin.
 set number relativenumber
+
+
+" Spellcheck
+set spell spelllang=en_us
 
 
 " Syntax on
