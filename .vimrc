@@ -30,6 +30,7 @@ set spell spelllang=en_us
 
 " Syntax on
 syntax on
+set re=0
 
 " <Tab> to four spaces
 set expandtab
