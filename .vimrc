@@ -32,6 +32,9 @@ set spell spelllang=en_us
 syntax on
 set re=0
 
+" Tabs configs
+set tabpagemax=100
+
 " <Tab> to four spaces
 set expandtab
 set tabstop=4
@@ -43,10 +46,11 @@ set wildmenu
 " Compilers
 autocmd FileType python compiler pylint
 
-" Plugins with vim-plugs
+" Plugins with vim-plug
 call plug#begin('~/.vim/plugins')
 
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'tpope/vim-commentary'
+Plug 'mkitt/tabline.vim'
 
 call plug#end()
