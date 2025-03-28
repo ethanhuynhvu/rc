@@ -15,7 +15,8 @@ set cursorline
 " Highlight when searching
 set hlsearch
 
-" Inserting comments on <Enter> in insert mode and <O> in normal mode is turned off
+" Inserting comment and indentation on <Enter> in insert mode and <O> in normal mode is turned off
+set formatoptions-=c
 set formatoptions-=r
 set formatoptions-=o
 
