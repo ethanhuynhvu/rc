@@ -47,11 +47,13 @@ set wildmenu
 " Compilers
 autocmd FileType python compiler pylint
 
-" Plugins with vim-plug
-call plug#begin('~/.vim/plugins')
+" vim-plug
+call plug#begin()
 
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'tpope/vim-commentary'
-Plug 'mkitt/tabline.vim'
+Plug 'ethanhuynhvu/vim-tabline-nums'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
