@@ -47,6 +47,9 @@ set wildmenu
 " Compilers
 autocmd FileType python compiler pylint
 
+" Commands
+command! -nargs=0 ListBuffers echo join(map(filter(range(1, bufnr('$')), 'buflisted(v:val)'), 'bufname(v:val)'), ' ')
+
 " vim-plug
 call plug#begin()
 
