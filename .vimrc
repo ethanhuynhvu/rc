@@ -12,6 +12,9 @@ colorscheme desert
 " Cursor line
 set cursorline
 
+" Hide buffers instead of unloading
+set hidden
+
 " Highlight when searching
 set hlsearch
 
